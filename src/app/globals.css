@@ -24,10 +24,20 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  margin: 0;
+  font-family: sans-serif;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.text-dark {
+  color: #212529;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
 }
